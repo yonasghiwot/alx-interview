@@ -8,7 +8,7 @@ def minOperations(n):
     to result in exactly n H characters in the file.
 
     In a text file, there is a single character H. Your text editor can
-    execute only two operations in this file: Copy all and 
+    execute only two operations in this file: Copy all and
     Paste characters in the file.
 
     Args:
