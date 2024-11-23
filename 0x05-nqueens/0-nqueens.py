@@ -134,9 +134,7 @@ def build_solution(row, group):
             # Check if any of the positions in the current solution group are
             # attacking the position at the index
             used_positions = map(lambda x: is_attacking(x[0], x[1]), matches)
-    
             group.append(pos[a].copy())
-          
             if not any(used_positions):
                 build_solution(row + 1, group)
             # Remove the queen from the group before trying the next column
